@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    android:weightSum="1">
+
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textClock"
+        android:layout_weight="0.10"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Match the color in the box with the text\nPress to begin"
+        android:textColor="#000000"
+        android:id="@+id/button1"
+        android:onClick="createNotification"
+        android:layout_weight="0.15"
+        android:background="#ffffff"
+        android:textAllCaps="false"
+        android:icon="@drawable/ng_logo"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="More notification games coming soon..."
+        android:textColor="#000000"
+        android:id="@+id/more_button"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.15"
+        android:background="#ffffff"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>
