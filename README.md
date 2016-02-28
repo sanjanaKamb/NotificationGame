@@ -2,14 +2,14 @@
 The game can be be played on the notification bar of an Android device.
 
 
-1. Once the app starts, a button is cliked which creates the following notification
+1.Once the app starts, a button is cliked which creates the following notification
 
 
 
 ![alt tag](https://cloud.githubusercontent.com/assets/6037079/13377510/147728e4-ddac-11e5-94aa-8ae5252855b8.png)
 
 
-2. The game begins after clicking the start button. If the text of a color and the actual color matches, click yes else click no.
+2.The game begins after clicking the start button. If the text of a color and the actual color matches, click yes else click no.
 
 
 
@@ -17,7 +17,7 @@ The game can be be played on the notification bar of an Android device.
 
 
 
-3. The game runs for 30 seconds at the end of which the current and the high score are displayed. Play Again restarts the game.
+3.The game runs for 30 seconds at the end of which the current and the high score are displayed. Play Again restarts the game.
 
 
 
